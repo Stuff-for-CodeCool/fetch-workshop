@@ -1,5 +1,23 @@
 const API = "https://jsonplaceholder.typicode.com/";
 
+// async function _get(url) {
+//     const req = await fetch(url, {
+//         headers: { "Content-Type": "application/json" },
+//     });
+//     const res = await req.json();
+//     return res;
+// }
+
+// async function _post(url, data) {
+//     const req = await fetch(url, {
+//         headers: { "Content-Type": "application/json" },
+//         method: "POST",
+//         body: JSON.stringify(data),
+//     });
+//     const res = await req.json();
+//     return res;
+// }
+
 function sanitizeUrl(url) {
     return url.replace(window.location.href, "");
 }
