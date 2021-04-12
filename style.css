@@ -69,3 +69,12 @@ header nav a + a {
 main {
     flex-basis: 100%;
 }
+
+.meta {
+    font-size: 12px;
+    color: var(--link);
+}
+
+main ul {
+    margin: 1rem 0 0 1rem;
+}
