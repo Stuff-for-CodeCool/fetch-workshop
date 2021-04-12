@@ -1,9 +1,11 @@
+/* General reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Variables */
 :root {
     --text: #333;
     --bg: #ddd;
@@ -11,6 +13,7 @@
     --link: #383;
 }
 
+/* Dark mode! */
 @media (prefers-color-scheme: dark) {
     :root {
         --text: #ddd;
